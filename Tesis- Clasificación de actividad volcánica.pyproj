@@ -1,0 +1,55 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>82b5a450-9fd0-4894-8693-264049cf1c1b</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Tesis__Clasificación_de_actividad_volcánica.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Tesis- Clasificación de actividad volcánica</Name>
+    <RootNamespace>Tesis- Clasificación de actividad volcánica</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Tesis__Clasificación_de_actividad_volcánica.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="JCAMP-DX_Reader\" />
+    <Folder Include="IR\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IR\C2H6.jdx" />
+    <Content Include="IR\C3H8.jdx" />
+    <Content Include="IR\CH4.jdx" />
+    <Content Include="IR\CO2.jdx" />
+    <Content Include="IR\H2O.jdx" />
+    <Content Include="IR\H2S.jdx" />
+    <Content Include="IR\HBr.jdx" />
+    <Content Include="IR\HCl.jdx" />
+    <Content Include="IR\HNO3.jdx" />
+    <Content Include="IR\NO.jdx" />
+    <Content Include="IR\O3.jdx" />
+    <Content Include="IR\SiF4.jdx" />
+    <Content Include="IR\SO2.jdx" />
+    <Content Include="README.rst" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
