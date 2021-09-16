@@ -25,22 +25,22 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="JCAMP-DX_Reader\" />
-    <Folder Include="IR\" />
+    <Folder Include="JCAMP-DX_Reader\IR\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="IR\C2H6.jdx" />
-    <Content Include="IR\C3H8.jdx" />
-    <Content Include="IR\CH4.jdx" />
-    <Content Include="IR\CO2.jdx" />
-    <Content Include="IR\H2O.jdx" />
-    <Content Include="IR\H2S.jdx" />
-    <Content Include="IR\HBr.jdx" />
-    <Content Include="IR\HCl.jdx" />
-    <Content Include="IR\HNO3.jdx" />
-    <Content Include="IR\NO.jdx" />
-    <Content Include="IR\O3.jdx" />
-    <Content Include="IR\SiF4.jdx" />
-    <Content Include="IR\SO2.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\C2H6.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\C3H8.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\CH4.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\CO2.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\H2O.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\H2S.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\HBr.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\HCl.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\HNO3.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\NO.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\O3.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\SiF4.jdx" />
+    <Content Include="JCAMP-DX_Reader\IR\SO2.jdx" />
     <Content Include="README.rst" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
