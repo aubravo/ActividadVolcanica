@@ -27,6 +27,12 @@
     <Compile Include="JcampReader\fileParser.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GasGraph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpectralHandler\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="test.py">
       <SubType>Code</SubType>
     </Compile>
@@ -38,6 +44,7 @@
   <ItemGroup>
     <Folder Include="JcampReader\" />
     <Folder Include="JcampReader\IR\" />
+    <Folder Include="SpectralHandler\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="JcampReader\IR\C2H6.jdx" />
