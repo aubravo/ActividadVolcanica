@@ -14,11 +14,12 @@ for file_, c in zip(files_,colors) :
     try:
         print(file_)
         data=parser.parser(path_+file_)
-        data_array_ = np.rot90(np.array( parser.toarray(data) ))
-        names = ["X,Y"]
-        plt.plot(data_array_[1],data_array_[0], color = c, label = data["TITLE"])
+        if "TRANSMITTANCE" in data["YUNITS"].upper():
+            data_array_ = np.rot90(np.array( parser.toarray(data) ))
+            names = ["X,Y"]
+            plt.plot(data_array_[1],data_array_[0], color = c, label = data["TITLE"] + " (" + data["MOLFORM"] + ")" )
     except:
-        print ('Error ')
-        pass
+        print(data)
+        raise
 plt.legend(loc='lower right')
 plt.show()

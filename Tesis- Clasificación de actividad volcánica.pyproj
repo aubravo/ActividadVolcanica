@@ -48,7 +48,6 @@
     <Content Include="JcampReader\IR\H2S.jdx" />
     <Content Include="JcampReader\IR\HBr.jdx" />
     <Content Include="JcampReader\IR\HCl.jdx" />
-    <Content Include="JcampReader\IR\HNO3.jdx" />
     <Content Include="JcampReader\IR\NO.jdx" />
     <Content Include="JcampReader\IR\O3.jdx" />
     <Content Include="JcampReader\IR\SiF4.jdx" />
