@@ -21,26 +21,38 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="JcampReader\fileHandler.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JcampReader\fileParser.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JcampReader\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Tesis__Clasificación_de_actividad_volcánica.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="JCAMP-DX_Reader\" />
-    <Folder Include="JCAMP-DX_Reader\IR\" />
+    <Folder Include="JcampReader\" />
+    <Folder Include="JcampReader\IR\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="JCAMP-DX_Reader\IR\C2H6.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\C3H8.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\CH4.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\CO2.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\H2O.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\H2S.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\HBr.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\HCl.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\HNO3.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\NO.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\O3.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\SiF4.jdx" />
-    <Content Include="JCAMP-DX_Reader\IR\SO2.jdx" />
+    <Content Include="JcampReader\IR\C2H6.jdx" />
+    <Content Include="JcampReader\IR\C3H8.jdx" />
+    <Content Include="JcampReader\IR\CH4.jdx" />
+    <Content Include="JcampReader\IR\CO2.jdx" />
+    <Content Include="JcampReader\IR\H2O.jdx" />
+    <Content Include="JcampReader\IR\H2S.jdx" />
+    <Content Include="JcampReader\IR\HBr.jdx" />
+    <Content Include="JcampReader\IR\HCl.jdx" />
+    <Content Include="JcampReader\IR\HNO3.jdx" />
+    <Content Include="JcampReader\IR\NO.jdx" />
+    <Content Include="JcampReader\IR\O3.jdx" />
+    <Content Include="JcampReader\IR\SiF4.jdx" />
+    <Content Include="JcampReader\IR\SO2.jdx" />
     <Content Include="README.rst" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
