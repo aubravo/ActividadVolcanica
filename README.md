@@ -7,3 +7,11 @@ Proyecto de tesis para la Maestría en Ciencia de Datos e Inteligencia de Negoci
 
 ## Objetivo
 Aplicar  algoritmos  de  aprendizaje  computacional  para  clasificar  los  tipos  de actividad volcánica del Popocatépetl
+
+##Dependencias
+pyplotlib
+
+
+##Secciones del Proyecto
+
+###Parte 1: Procesamiento de datos provenientes de Espectrometros infrarrojos
