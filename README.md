@@ -6,12 +6,18 @@ Proyecto de tesis para la Maestría en Ciencia de Datos e Inteligencia de Negoci
 **Contacto:** alvaroulises.bravo@upaep.edu.mx
 
 ## Objetivo
+
 Aplicar  algoritmos  de  aprendizaje  computacional  para  clasificar  los  tipos  de actividad volcánica del Popocatépetl
 
 ##Dependencias
+
 pyplotlib
 
 
 ##Secciones del Proyecto
 
+A
+
 ###Parte 1: Procesamiento de datos provenientes de Espectrometros infrarrojos
+
+a
