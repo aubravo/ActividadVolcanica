@@ -16,7 +16,7 @@
 </p>
 
 
-##Sobre este proyecto
+#Sobre este proyecto
 
 **Autor:** Alvaro Ulises Bravo
 
