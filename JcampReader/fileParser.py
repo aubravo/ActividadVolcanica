@@ -1,5 +1,5 @@
 import JcampReader.fileHandler as handler
-import numpy
+import numpy as np
 
 def parser (filename):
     ToParse = handler.read(filename)
@@ -16,6 +16,19 @@ def parser (filename):
         except:
             pass
     return Parameters
+
+def normalize (data):
+    if "TRANSMITTANCE" in data["YUNITS"].upper():
+        data_array_ = np.rot90(np.array(toarray(data) ))
+        if data["XUNITS"].upper() == "MICROMETERS":
+            data_array_[1] = data_array_[1]*1000
+        elif data["XUNITS"].upper() == "NANOMETERS":
+            pass
+        elif data["XUNITS"].upper() == "1/CM":
+            data_array_[1] = 10000000/data_array_[1]
+        return data_array_
+    else:
+        print ("No data to normalize")
 
 def toarray (data):
     data_array=[]

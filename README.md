@@ -75,10 +75,6 @@ This is an example of how to list things you need to use the software and how to
    git clone https://github.com/aubravo/ActividadVolcanica
    ```
 
-
-
-
-<!-- USAGE EXAMPLES -->
 ## Uso
 
 
@@ -89,18 +85,19 @@ This is an example of how to list things you need to use the software and how to
   </a>
 </p>
 
-La primera sección de este proyecto, utiliza documentos JCamp obtenidos de diversas bases de datos para identificar en el espectro Infrarojo los gases presentes en exhalaciones volcánicas, permitiendo así, elegir las bandas en las cuales será más facil identificarlos en imagenes satelitales hiperespectrales.
+La primera sección de este proyecto, utiliza documentos JCamp obtenidos de la base de datos de la base de datos [Chemestry Webhook](https://webbook.nist.gov/chemistry/) del National Institute of Standards and Technology. Al analizar estos archivos, es posible obtener la respuesta de cada uno de los compuestos moleculares de interés en el espectro infrarrojo.
 
-Los archivos JCamp se almacenan en la carpeta JCampReader/IR de este proyecto y el script GasGraph.py permite graficar los resultados de la interpretación de dichos archivos.
+De esta manera, es posible identificar claramente la interacción existente entre los compuestos moleculares presentes en exhalaciones volcánicas y seleccionar las bandas del espectro electromagnético de mayor interés para la calibración de una cámara hiperespectral satelital.
+
+Los archivos JCamp se almacenan en la carpeta [JCampReader/IR](JCampReader/IR) de este proyecto y el script GasGraph.py permite graficar los resultados de la interpretación de dichos archivos.
 
 
 
 <!-- CONTACT -->
 ## Contacto
 
-Alvaro U. Bravo - [alvaroulises.bravo@upaep.edu.mx](mailto:alvaroulises.bravo@upaep.edu.mx)
-
-Project Link: [https://github.com/aubravo/ActividadVolcanica](https://github.com/aubravo/ActividadVolcanica)
+Alvaro U. Bravo - [alvaroulises.bravo@upaep.edu.mx](mailto:alvaroulises.bravo@upaep.edu.mx) / [alvaroubravo@gmail.com](mailto:alvaroubravo@gmail.com)
+Enlace del proyecto: [https://github.com/aubravo/ActividadVolcanica](https://github.com/aubravo/ActividadVolcanica)
 
 
 
