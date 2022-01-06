@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/aubravo/ActividadVolcanica">
-    <img src="images/popocatepetl_logo.png" alt="Popocatepetl" height="80">
+    <img src="images/popocatepetl_logo.png" alt="Popocatepetl" height="250">
   </a>
 
   <h3 align="center">Clasificación de actividad volcánica del Popocatépetl aplicando algoritmos de aprendizaje automático</h3>
