@@ -89,7 +89,7 @@ La primera sección de este proyecto, utiliza documentos JCamp obtenidos de la b
 
 De esta manera, es posible identificar claramente la interacción existente entre los compuestos moleculares presentes en exhalaciones volcánicas y seleccionar las bandas del espectro electromagnético de mayor interés para la calibración de una cámara hiperespectral satelital.
 
-Los archivos JCamp se almacenan en la carpeta [JCampReader/IR](JCampReader/IR) de este proyecto y el script GasGraph.py permite graficar los resultados de la interpretación de dichos archivos.
+Los archivos JCamp se almacenan en la carpeta [JCampReader/IR](https://github.com/aubravo/ActividadVolcanica/JCampReader/IR) de este proyecto y el script GasGraph.py permite graficar los resultados de la interpretación de dichos archivos.
 
 
 
@@ -97,6 +97,7 @@ Los archivos JCamp se almacenan en la carpeta [JCampReader/IR](JCampReader/IR) d
 ## Contacto
 
 Alvaro U. Bravo - [alvaroulises.bravo@upaep.edu.mx](mailto:alvaroulises.bravo@upaep.edu.mx) / [alvaroubravo@gmail.com](mailto:alvaroubravo@gmail.com)
+
 Enlace del proyecto: [https://github.com/aubravo/ActividadVolcanica](https://github.com/aubravo/ActividadVolcanica)
 
 
