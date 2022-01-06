@@ -27,14 +27,17 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#cómo-empezar">Cómo empezar</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#requisitos">Requisitos</a></li>
+        <li><a href="#instalación">Instalaciónn</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#uso">Uso</a></li>
+    <ul>
+      <li><a href="#jcampreader">JcampReader</a></li>
+    </ul>
+    <li><a href="#contacto">Contacto</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -55,17 +58,17 @@ El presente proyecto forma parte de mi proyecto de titulación de tesis para la 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Cómo empezar
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+### Requisitos
 
 This is an example of how to list things you need to use the software and how to install them.
 
 
 
-### Installation
+### Instalación
 
 1. Clone the repo
    ```sh
@@ -76,7 +79,7 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Uso
 
 
 ### JCampReader
@@ -93,7 +96,7 @@ Los archivos JCamp se almacenan en la carpeta JCampReader/IR de este proyecto y 
 
 
 <!-- CONTACT -->
-## Contact
+## Contacto
 
 Alvaro U. Bravo - [alvaroulises.bravo@upaep.edu.mx](mailto:alvaroulises.bravo@upaep.edu.mx)
 
