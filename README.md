@@ -54,9 +54,9 @@ Here's a blank template to get started:
 
 ### Built With
 
-* [Python 3]
-* [pyplot](https://matplotlib.org/stable/tutorials/introductory/pyplot.html)
-* []()
+* Python3:
+  * [pyplot](https://matplotlib.org/stable/tutorials/introductory/pyplot.html)
+  * []()
 
 
 
@@ -68,21 +68,16 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+
+
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/aubravo/ActividadVolcanica
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+
 
 
 
@@ -98,9 +93,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Alvaro U. Bravo - [alvaroulises.bravo@upaep.edu.mx](mailto:alvaroulises.bravo@upaep.edu.mx)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/aubravo/ActividadVolcanica](https://github.com/aubravo/ActividadVolcanica)
 
 
 
@@ -110,30 +105,3 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 * []()
 * []()
 * []()
-
-
-
-
-
-#Sobre este proyecto
-
-**Autor:** Alvaro Ulises Bravo
-
-**Contacto:** alvaroulises.bravo@upaep.edu.mx
-
-## Objetivo
-
-Aplicar  algoritmos  de  aprendizaje  computacional  para  clasificar  los  tipos  de actividad volcánica del Popocatépetl
-
-##Dependencias
-
-pyplotlib
-
-
-##Secciones del Proyecto
-
-A
-
-###Parte 1: Procesamiento de datos provenientes de Espectrometros infrarrojos
-
-a
