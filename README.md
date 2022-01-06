@@ -16,13 +16,12 @@
 </p>
 
 
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Contenido</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#sobre-el-proyecto">Sobre el proyecto</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -42,14 +41,9 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre el proyecto
 
-
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+El presente proyecto forma parte de mi proyecto de titulación de tesis para la Maestría en Ciencia de Datos e Inteligencia de Negocios, el cual consiste en diversas etapas y tiene como objetivo final, establecer los requisitos para la carga útil del satelite Gxiba y comprobar la capacidad de clasificación de actividad volcánica utilizando imágenes hiperespectrales satelitales.
 
 
 ### Built With
@@ -83,6 +77,7 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
 
 ### JCampReader
 <p align="center">
