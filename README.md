@@ -45,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][images/popocatepetl_logo.png]](https://example.com)
+
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -84,9 +84,16 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### JCampReader
+<p align="center">
+  <a href="https://github.com/aubravo/ActividadVolcanica">
+    <img src="images/gas_graph.png" alt="Gas Graph in Infrared" height="250">
+  </a>
+</p>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+La primera sección de este proyecto, utiliza documentos JCamp obtenidos de diversas bases de datos para identificar en el espectro Infrarojo los gases presentes en exhalaciones volcánicas, permitiendo así, elegir las bandas en las cuales será más facil identificarlos en imagenes satelitales hiperespectrales.
+
+Los archivos JCamp se almacenan en la carpeta JCampReader/IR de este proyecto y el script GasGraph.py permite graficar los resultados de la interpretación de dichos archivos.
 
 
 
