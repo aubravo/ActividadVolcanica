@@ -1,10 +1,10 @@
-import JcampReader.fileParser as parser
+import ActividadVolcanica.JcampReader.fileParser as parser
 import numpy as np
 from matplotlib import pyplot as plt
 import matplotlib.cm as cm
 import os
 
-path_ = "JcampReader/IR/"
+path_ = "ActividadVolcanica/JcampReader/IR/"
 files_ = os.listdir(path_)
 
 colors = cm.rainbow(np.linspace(0,1,len(files_)))

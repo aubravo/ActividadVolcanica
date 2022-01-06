@@ -1,4 +1,4 @@
-import JcampReader.fileHandler as handler
+import ActividadVolcanica.JcampReader.fileHandler as handler
 import numpy as np
 
 def parser (filename):
